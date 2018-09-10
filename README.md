@@ -1,4 +1,4 @@
-# opsdroid skill hello
+# opsdroid skill help
 
 A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond with help strings from loaded skills.
 
