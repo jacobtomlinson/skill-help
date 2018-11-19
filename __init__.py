@@ -1,9 +1,6 @@
 from opsdroid.matchers import match_regex
 import logging
 
-def setup(opsdroid):
-    logging.debug("Loaded help module")
-
 @match_regex(r'help$')
 async def help(opsdroid, config, message):
     """help - Displays this help message"""
